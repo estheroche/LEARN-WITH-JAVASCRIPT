@@ -1,7 +1,7 @@
-/*let js = 'amazing';
+let js = 'amazing';
         if (js === 'amazing')  alert ('javaScript is FUN!');
         43 + 3 -4;
-        console.log( 43 + 3 -4);
+       /* console.log( 43 + 3 -4);
         console.log("esther");
         console.log(43);
 
@@ -69,4 +69,14 @@ console.log(ageEsther * 2, ageEsther / 10, 2 ** 3);
 const firstName = 'esther';
 const lastName = 'oche';
 console.log(firstName + ' ' + lastName);
+
+//ASSIGMENT OPERATOR
+
+let x = 10 + 5;// 15
+x += 10; // x =15+10 = 25
+x *= 4; // x = 15  * 4 = 100
+x++; // x = x + 1
+x--; // = 99
+x--;
+console.log(x);
 
