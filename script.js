@@ -89,4 +89,31 @@ console.log(ageEsther >= 18);
 const isFullAge = ageEsther >= 18;
 console.log(now - 2000 > now - 2001);
 
+let k, y; // declaring empty variable example
+k = y = 25 -10 -5; // k= 10, y=10
+console.log(k, y); 
+
+// to calculate average age
+
+const averageAge = (ageEsther + ageGold ) / 2
+console.log(ageEsther, ageGold, averageAge);
+
+// ACCECEMENT TEST DATA 1
+
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / heightJohn ** 2;
+
+console.log(BMIMark, BMIJohn);
+console.log(BMIMark > BMIJohn);
+
+const markHigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn, markHigherBMI);
+
+
 
