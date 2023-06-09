@@ -68,4 +68,5 @@ console.log(ageEsther * 2, ageEsther / 10, 2 ** 3);
 
 const firstName = 'esther';
 const lastName = 'oche';
-console.log(firstName + lastName);
+console.log(firstName + ' ' + lastName);
+
