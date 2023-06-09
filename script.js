@@ -41,6 +41,7 @@ let js = 'amazing';
        javascriptIsFun = 'YES!';
        console.log(javascriptIsFun);
        console.log(typeof javascriptIsFun);
+       */
 
        //BIGINT, UNDEFINE, SYMBOL ARE OTHER DATA TYPES
 
@@ -64,7 +65,7 @@ console.log(ageEsther * 2, ageEsther / 10, 2 ** 3);
     
     // to concatinate two or more strings with plus sign 
 
-*/
+
 
 const firstName = 'esther';
 const lastName = 'oche';
@@ -79,4 +80,13 @@ x++; // x = x + 1
 x--; // = 99
 x--;
 console.log(x);
+
+//comparison operator ( it will be a BOOLEN result i.e TRUE OR FALSE)
+console.log(ageEsther > ageGold); //<, >, >=, <=
+console.log(ageEsther >= 18);
+
+//i.e boolean TRUE = 18
+const isFullAge = ageEsther >= 18;
+console.log(now - 2000 > now - 2001);
+
 
