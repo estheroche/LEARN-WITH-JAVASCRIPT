@@ -45,7 +45,7 @@ let js = 'amazing';
 
        //BIGINT, UNDEFINE, SYMBOL ARE OTHER DATA TYPES
 
-       let year;
+  /*     let year;
        console.log(year);
        console.log(typeof year);
        //DYNAMIC TYPING
@@ -114,6 +114,28 @@ console.log(BMIMark > BMIJohn);
 const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
+*/
+
+
+/// STRINGS AND TEMPLATE LITERALS
+
+// USING STING TO CONCATINATE
+
+const firstName = 'esther';
+const lastName = 'oche';
+const job = 'writer';
+const birthYear = 2003;
+const year = 2023;
+
+const esther = "I'm " + firstName + ' ' + lastName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+
+console.log(esther);
+
+/// USING TEMPLATE LITERAL TO CONCATINATE
+
+
+
+
 
 
 
