@@ -136,6 +136,10 @@ console.log(esther);
 const estherNew = `I'm ${firstName} ${lastName}, a ${year - birthYear} year old ${job}!`;
 console.log(estherNew);
 
+//USING BACTICS FOR REGULA QUOTATIONS
+
+console.log(`esther is a fine girl.......`)
+
 
 
 
