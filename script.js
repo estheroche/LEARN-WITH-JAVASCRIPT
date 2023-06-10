@@ -131,10 +131,10 @@ const esther = "I'm " + firstName + ' ' + lastName + ', a ' + (year - birthYear)
 
 console.log(esther);
 
-/// USING TEMPLATE LITERAL TO CONCATINATE
 
-
-
+/// USING TEMPLATE LITERAL TO CONCATINATE (batick sign)
+const estherNew = `I'm ${firstName} ${lastName}, a ${year - birthYear} year old ${job}!`;
+console.log(estherNew);
 
 
 
