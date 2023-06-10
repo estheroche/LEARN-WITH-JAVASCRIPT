@@ -45,7 +45,7 @@ if (js === "amazing") alert("javaScript is FUN!");
 
 //BIGINT, UNDEFINE, SYMBOL ARE OTHER DATA TYPES
 
-/*     let year;
+  /*  let year;
        console.log(year);
        console.log(typeof year);
        //DYNAMIC TYPING
@@ -97,13 +97,22 @@ console.log(k, y);
 
 const averageAge = (ageEsther + ageGold ) / 2
 console.log(ageEsther, ageGold, averageAge);
+*/
 
+//COMPARISON OPERATOR
 // ACCECEMENT TEST DATA 1
 
-const massMark = 78;
+//const massMark = 78;
+//const heightMark = 1.69;
+//const massJohn = 92;
+//const heightJohn = 1.95;
+
+
+const massMark = 95;
 const heightMark = 1.69;
 const massJohn = 92;
 const heightJohn = 1.95;
+
 
 const BMIMark = massMark / heightMark ** 2;
 const BMIJohn = massJohn / heightJohn ** 2;
@@ -114,7 +123,7 @@ console.log(BMIMark > BMIJohn);
 const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
-*/
+
 
 /// STRINGS AND TEMPLATE LITERALS
 
@@ -168,6 +177,7 @@ if (age >= 18) {
 }
 
 // ALSO
+// OUR CONDITION OPERATOR COMES WITH <=, >= it returns true or false
 
 const birthYear = 1999
 let century;
@@ -178,3 +188,9 @@ if (birthYear <= 2000) {
 century = 21
 }
 console.log(century);
+
+if (markHigherBMI) {
+console.log(`Mark's BMI (${BMIMark}), is hgher than John's (${BMIJohn})`)
+} else {
+            console.log(`"John's BMI ${BMIJohn} is higher than Mark's (${BMIMark})`)
+}
