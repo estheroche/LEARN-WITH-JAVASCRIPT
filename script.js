@@ -1,7 +1,7 @@
-let js = 'amazing';
-        if (js === 'amazing')  alert ('javaScript is FUN!');
-        43 + 3 -4;
-       /* console.log( 43 + 3 -4);
+let js = "amazing";
+if (js === "amazing") alert("javaScript is FUN!");
+43 + 3 - 4;
+/* console.log( 43 + 3 -4);
         console.log("esther");
         console.log(43);
 
@@ -43,9 +43,9 @@ let js = 'amazing';
        console.log(typeof javascriptIsFun);
        */
 
-       //BIGINT, UNDEFINE, SYMBOL ARE OTHER DATA TYPES
+//BIGINT, UNDEFINE, SYMBOL ARE OTHER DATA TYPES
 
-  /*     let year;
+/*     let year;
        console.log(year);
        console.log(typeof year);
        //DYNAMIC TYPING
@@ -116,7 +116,6 @@ const markHigherBMI = BMIMark > BMIJohn;
 console.log(BMIMark, BMIJohn, markHigherBMI);
 */
 
-
 /// STRINGS AND TEMPLATE LITERALS
 
 // USING STING TO CONCATINATE
@@ -152,15 +151,30 @@ multiple
 lines`);
 */
 
-//WE ARE TO WRITE A CODE TO CHECK WHETHER A PERSON IS 
-//ALLOW TO START TAKING A DRIVERS LICENCE OR NOT, 
-//WHCIH WILL PRINT THE AGE REQUIRE TO BE ALLOWED TO USE  
+//WE ARE TO WRITE A CODE TO CHECK WHETHER A PERSON IS
+//ALLOW TO START TAKING A DRIVERS LICENCE OR NOT,
+//WHCIH WILL PRINT THE AGE REQUIRE TO BE ALLOWED TO USE
 //A LICENCE
+//USING IF/ELSE STATEMENT CONTROLSTRUCTURE
 
+const age = 15;
+const isOldEnough = age >= 18;
 
+if (age >= 18) {
+  console.log(`Sarah is old enough to drive 🚗🚗🚗🚗🚗`);
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young, kindly wait for another ${yearsLeft} years`);
+}
 
+// ALSO
 
+const birthYear = 1999
+let century;
+if (birthYear <= 2000) {
+    century = 20
 
-
-
-
+} else {
+century = 21
+}
+console.log(century);
