@@ -108,7 +108,7 @@ console.log(ageEsther, ageGold, averageAge);
 //const heightJohn = 1.95;
 
 
-const massMark = 95;
+/*const massMark = 95;
 const heightMark = 1.69;
 const massJohn = 92;
 const heightJohn = 1.95;
@@ -166,7 +166,7 @@ lines`);
 //A LICENCE
 //USING IF/ELSE STATEMENT CONTROLSTRUCTURE
 
-const age = 15;
+/*const age = 15;
 const isOldEnough = age >= 18;
 
 if (age >= 18) {
@@ -194,3 +194,10 @@ console.log(`Mark's BMI (${BMIMark}), is hgher than John's (${BMIJohn})`)
 } else {
             console.log(`"John's BMI ${BMIJohn} is higher than Mark's (${BMIMark})`)
 }
+*/
+
+//TYPE CONVERSION(manually done) AND COERCION (hiddenly done)
+// converting string to number
+const inputYear = '1991';
+console.log(Number(inputYear) + 18);
+
