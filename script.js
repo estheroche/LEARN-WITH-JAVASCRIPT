@@ -1,4 +1,4 @@
-let js = "amazing";
+/*let js = "amazing";
 if (js === "amazing") alert("javaScript is FUN!");
 43 + 3 - 4;
 /* console.log( 43 + 3 -4);
@@ -196,7 +196,7 @@ console.log(`Mark's BMI (${BMIMark}), is hgher than John's (${BMIJohn})`)
 }
 */
 
-//TYPE CONVERSION(manually done) AND COERCION (hiddenly done)
+//TYPE CONVERSION(manually done) 
 // converting string to number i.e making a string to be be actual number
 const inputYear = '1991';
 console.log(Number(inputYear) + 18);
@@ -205,3 +205,9 @@ console.log(Number(inputYear) + 18);
 
 //number to string i.e making a number to be in strng format
 console.log(String(23));
+
+//AND COERCION (hiddenly done)
+// number in between strings can be coerced to become string
+console.log('I am ' + 10 +  ' YEARS old ');
+// below the - sign nulify it, only + sign is applicable
+console.log('23' -10 - '3');
