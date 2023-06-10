@@ -197,7 +197,11 @@ console.log(`Mark's BMI (${BMIMark}), is hgher than John's (${BMIJohn})`)
 */
 
 //TYPE CONVERSION(manually done) AND COERCION (hiddenly done)
-// converting string to number
+// converting string to number i.e making a string to be be actual number
 const inputYear = '1991';
 console.log(Number(inputYear) + 18);
 
+//NaN MEANS NOT A NUMBER
+
+//number to string i.e making a number to be in strng format
+console.log(String(23));
