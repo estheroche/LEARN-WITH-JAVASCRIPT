@@ -211,3 +211,5 @@ console.log(String(23));
 console.log('I am ' + 10 +  ' YEARS old ');
 // below the - sign nulify it, only + sign is applicable
 console.log('23' -10 - '3');
+
+console.log("testing");
